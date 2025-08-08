@@ -1,5 +1,7 @@
 # Nandayala Abhirama Varma — Portfolio
 
+Live: [portfolio-abhiramavarmas-projects.vercel.app](https://portfolio-abhiramavarmas-projects.vercel.app/)
+
 Personal site built with React, Vite, TypeScript, Tailwind CSS and Framer Motion. It has a clean layout, dark mode, a command palette, and a Spline background with subtle parallax and cursor‑driven head movement.
 
 ## Stack
