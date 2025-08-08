@@ -41,7 +41,7 @@ export default function Background() {
                 const nx = e.clientX / window.innerWidth
                 const ny = e.clientY / window.innerHeight
                 targetX = (nx - 0.5) * 2
-                targetY = (0.5 - ny) * 2
+                targetY = (ny - 0.5) * 2
                 if (!rafId) rafId = requestAnimationFrame(tick)
               }
               const tick = () => {
