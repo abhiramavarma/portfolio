@@ -7,7 +7,9 @@ export default function Hero() {
       <div className="container-responsive">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <motion.h1
+            <div className="flex items-center gap-3">
+              <img src="/logo.png" alt="Logo" className="h-10 w-10 rounded-sm" />
+              <motion.h1
               initial={{ y: 16, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -15,6 +17,7 @@ export default function Hero() {
             >
               {personal.name}
             </motion.h1>
+            </div>
             <motion.p
               initial={{ y: 16, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}

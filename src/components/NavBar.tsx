@@ -24,8 +24,9 @@ export function NavBar() {
     >
       <div className="container-responsive">
         <div className="mt-4 rounded-full glass-card px-4 py-2 flex items-center justify-between">
-          <a href="#hero" className="font-semibold tracking-tight">
-            <span className="text-primary-600 dark:text-primary-400">AV</span> • Portfolio
+          <a href="#hero" className="flex items-center gap-2 font-semibold tracking-tight">
+            <img src="/logo.png" alt="Logo" className="h-6 w-6 rounded-sm" />
+            <span className="hidden sm:inline">Portfolio</span>
           </a>
           <div className="hidden md:flex items-center gap-1">
             {sections.map((s) => (
