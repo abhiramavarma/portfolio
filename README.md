@@ -1,4 +1,4 @@
-# Abhiram Varma — Portfolio
+# Nandayala Abhirama Varma — Portfolio
 
 A modern, animated portfolio built with React + Vite + TypeScript, Tailwind CSS, and Framer Motion. Features a cinematic generative background, parallax motion, a full-screen Spline 3D scene with cursor-reactive head tracking, and a fast Command Palette (⌘/Ctrl+K) for navigation.
 
