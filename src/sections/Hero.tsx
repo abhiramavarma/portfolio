@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <div className="flex items-center gap-3">
-              <img src="/logo.jpg" alt="Logo" className="h-10 w-10 rounded-sm" />
+              <img src="/trans_logo.png" alt="Logo" className="h-24 w-24 rounded-sm" />
               <motion.h1
               initial={{ y: 16, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
